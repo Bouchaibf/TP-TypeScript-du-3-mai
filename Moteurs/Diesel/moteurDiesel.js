@@ -20,9 +20,7 @@ var moteur_1 = require("../moteur");
 var MoteurDiesel = /** @class */ (function (_super) {
     __extends(MoteurDiesel, _super);
     function MoteurDiesel(vitesse, kilometrage) {
-        var _this = _super.call(this, vitesse, kilometrage) || this;
-        _this.kilometrage = 100;
-        return _this;
+        return _super.call(this, vitesse, kilometrage) || this;
     }
     return MoteurDiesel;
 }(moteur_1.Moteur));

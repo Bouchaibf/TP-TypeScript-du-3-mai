@@ -26,8 +26,8 @@ var Moteur = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    Moteur.prototype.lireKilometrage = function (_kilometrage) {
-        console.log("le kilométrage est de  : " + kilometrage);
+    Moteur.prototype.lireKilometrage = function (kilometrage) {
+        console.log("le kilométrage est de  : " + _kilometrage);
     };
     return Moteur;
 }());

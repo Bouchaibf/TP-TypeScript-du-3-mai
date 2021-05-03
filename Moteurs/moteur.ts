@@ -24,8 +24,8 @@ export class Moteur {
         this._kilometrage = kilometrage;
     }
 
-    lireKilometrage(_kilometrage : number) {
-        console.log("le kilométrage est de  : " + kilometrage);
+    lireKilometrage(kilometrage : number) {
+        console.log("le kilométrage est de  : " + _kilometrage);
     }
 
 }
